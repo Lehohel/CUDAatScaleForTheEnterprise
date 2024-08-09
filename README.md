@@ -3,7 +3,13 @@ This is a template for the course project for the CUDA at Scale for the Enterpri
 
 ## Project Description
 
-Beyond just being a template for course members, this project can be used by non-course members as the general structure for CUDA projects.
+This project was created as a playground for investigating various filtering and image processing capabilities of the CUDA NPP (NVIDIA 2D Image and Signal Processing Performance Primitives) Library. Currently, the project provides an example usecasefor the following NPP functions:
+
+
+
+The project allows to choose the input image file in BMP or PGM format, specify the needed filter and provide the filename or directory for the output file. Currently, the project allows processing only one image, since there is a problem with NPP kernel execution, which fails when you try to run the same kernel again. The project requires a Coursera Lab environment to execute since it provides the configured CUDA environment and doesn't require additional configuration, which currently is out of the scope of this project.
+
+The project structure follows the template from https://github.com/PascaleCourseraCourses/CUDAatScaleForTheEnterpriseCourseProjectTemplate.
 
 ## Code Organization
 
