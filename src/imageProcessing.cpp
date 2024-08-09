@@ -70,7 +70,7 @@ void add(std::string sFilename, int addNumber){
       sResultFilenameAdd = sResultFilenameAdd.substr(0, dot);
     }
 
-    sResultFilenameAdd += "_add.bmp";
+    sResultFilenameAdd += "_add.pgm";
 
     // declare a host image object for an 8-bit grayscale image
     npp::ImageCPU_8u_C1 oHostSrc;
@@ -139,7 +139,7 @@ void erode(std::string sFilename){
       sResultFilenameAdd = sResultFilenameAdd.substr(0, dot);
     }
 
-    sResultFilenameAdd += "_erode.bmp";
+    sResultFilenameAdd += "_erode.pgm";
 
     // declare a host image object for an 8-bit grayscale image
     npp::ImageCPU_8u_C1 oHostSrc;
