@@ -12,6 +12,20 @@ The project allows to choose the input image file in BMP or PGM format, specify 
 
 The project structure follows the template from https://github.com/PascaleCourseraCourses/CUDAatScaleForTheEnterpriseCourseProjectTemplate.
 
+## Results
+
+![Original image](https://github.com/Lehohel/CUDAatScaleForTheEnterprise/blob/main/images/Lena.jpg)
+
+Fig 1. The original test image.
+
+![Image after add function](https://github.com/Lehohel/CUDAatScaleForTheEnterprise/blob/main/images/Lena_add.jpg)
+
+Fig 2. The image after the AddC function was applied to it.
+
+![Eroded imgage](https://github.com/Lehohel/CUDAatScaleForTheEnterprise/blob/main/images/Lena_erode.jpg)
+
+Fig 3. The image after the Erode function is applied to it.
+
 ## Code Organization
 
 ```bin/```
@@ -19,6 +33,9 @@ This folder should hold all binary/executable code that is built automatically o
 
 ```data/```
 This folder should hold all example data in any format. If the original data is rather large or can be brought in via scripts, this can be left blank in the respository, so that it doesn't require major downloads when all that is desired is the code/structure.
+
+```images/```
+Images in browser viewable format. It contain the output of the code in jpg format.
 
 ```lib/```
 Any libraries that are not installed via the Operating System-specific package manager should be placed here, so that it is easier for inclusion/linking.
